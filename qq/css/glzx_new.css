@@ -1,0 +1,113 @@
+/*攻略中心  最新样式*/
+/*.three_left_btmA*/
+.three_left_btmA .btmA_one {
+	width:84px;
+	height:25px;
+	line-height:25px;
+	display:inline-block;
+	background: #b3b9de;
+	color:#fff;
+	border-radius:5px 0 5px 0;
+	text-align:center;
+	margin: 0 10px 0 0;	
+} 
+.sec_com_right .three_left_btm>ul>li {
+    margin: 20px 55px 0 -11px;
+}
+.sec_com_right .three_left_btm .li_left {
+	margin-left:25px;
+}
+.sec_com_right .three_left_btm {
+    height: 1500px;
+}
+.three_left_btmA>i {
+	width:150px;
+	height:55px;
+	line-height:55px;	
+	position:absolute;
+	display:none;/*
+	border:1px solid #000;*/
+	text-align:center;
+	top:22px;
+	font-size:16px;
+	color:#fff;
+}
+.three_left_btmA .i_first {
+	width:115px;
+	left:16px;
+}
+.three_left_btmA .i_two {
+	left:132px;
+}
+.three_left_btmA .i_three {
+	left:282px;
+}
+.three_left_btmA .i_four{
+	left:432px;
+}
+.three_left_btmA .i_five{
+	left:582px;
+}
+.three_left_btmA .i_six{
+	left:732px;
+}
+.three_left_btmA ul {
+	width:934px;
+	overflow:hidden;
+}
+.three_left_btmA .first_li {
+	border:none;
+}
+.three_left_btmA li {
+	width:900px;
+	padding:20px 0 20px 0;
+	border-top:1px solid #d4d6d9;
+}
+.three_left_btmA a {
+	font-size:16px;
+	color:#535455
+}
+.three_left_btmA .btmA_one:hover {
+	color:#fff;
+}
+.sec_com_right .three_left_btm span {
+	float:right;
+	color:#999;
+}
+.sec_com_right .yemian {
+    text-align: center;
+    position: absolute;
+    top: 1425px;
+    margin: 0 0 0 430px;
+}
+.sec_com_right .yemian .shang {
+    width: 89px;
+    height: 39px;
+    line-height: 39px;
+    display: inline-block;
+    color:#5f94ff;
+    border: 1px solid #5f94ff;
+    cursor:pointer;
+}
+.sec_com_right .three_left_btmA input {
+	z-index:11;
+    top: -60px;
+    left: 23px;
+    margin: 0 41px 0 0;
+}
+.sec_com_right .three_left_btmA input:checked+i {
+	display:block;
+	background:#6a99f3;
+}
+.sec_com_right .three_left_btmA input+i+ul {
+	margin: 0 54px 0 0;
+}
+.sec_com_right .three_left_btmA input:checked+i+ul {
+	display:block;
+}
+.sec_com_right .three_left_btmA input:checked .i_first {
+
+}
+footer {
+	top:1500px;
+}

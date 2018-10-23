@@ -1,0 +1,88 @@
+/*新手上路样式*/
+footer {
+	top:3400px;
+}
+.new {
+	width:1200px;
+	height:82px;
+	margin:0 auto;
+	background:url('../images/xsrm/g_nav.png') no-repeat;
+	font-size: 28px;
+	text-align:center;
+}
+.new a {
+	width:400px;
+	height:82px;
+	line-height:82px;
+	display:inline-block;
+	float:left;
+	color:#fff;
+	font-weight:normal;
+}
+.new a:hover {
+	background:url('../images/xsrm/sprs.png') no-repeat -10px -10px;
+}
+.new .a_last {
+	background:url('../images/xsrm/sprs.png') no-repeat -10px -10px;
+}
+
+.sec_A {
+	width:1200px;
+	margin:0 auto;
+	background:#fff;
+	padding:30px 0 40px 0;
+}
+.sec_Af {
+	width:1111px;
+	margin:0 auto;
+	padding:0 0 45px 0;
+	border-bottom:1px solid #d4d6d9;
+	margin-bottom:40px;
+}
+.sec_Af .one_h2 {
+	width:780px;
+	height:53px;
+	line-height:53px;
+	font-size: 26px;
+    color: #4b4b69;
+    margin: 10px 0 40px 0;
+	background:url('../images/public/sprs.png') no-repeat -10px -386px;
+}
+.sec_Af .one_h2 i {
+    width: 54px;
+    height: 32px;
+    display: inline-block;
+    background: url('../images/public/sprs.png') no-repeat -513px -323px;
+}
+.sec_Af .one_h3 {
+    margin:0 0 25px 0;
+	font-size: 18px;
+    color: #2286f0;
+    font-weight: bold;
+}
+.sec_Af p {
+	font-size: 16px;
+    color: #434660;
+    line-height: 200%;
+}
+.sec_Af img {
+    max-width: 780px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+.sec_Af .one_h2 .i_one {
+	background: url('../images/public/sprs.png') no-repeat -583px -256px;
+}
+.sec_Af .one_h2 .i_two {
+	background: url('../images/public/sprs.png') no-repeat -622px -256px;
+}	
+.sec_Af .one_h2 .i_three {
+	background: url('../images/public/sprs.png') no-repeat -519px -292px;;
+}
+.sec_Af .one_h2 .i_four {
+	background: url('../images/public/sprs.png') no-repeat -572px -290px;;
+}
+.sec_Af .one_h2 .i_five {
+	background: url('../images/public/sprs.png') no-repeat -623px -291px;;
+}

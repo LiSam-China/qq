@@ -1,0 +1,90 @@
+/**/
+.sec_Af {
+	width:1200px;
+	/*height:700px;*/
+	/*border:1px solid #000;*/
+	margin:0 auto;
+	background:#fff;
+	color: #535455
+}
+.sec_Af:after {
+	position: absolute;
+    content: "";
+    width: 1200px;
+    height: 29px;
+    background: url('../images/benben/board-top.png') no-repeat 50%;
+    top: -29px;
+}
+.sec_Af h2 {
+	border-bottom:1px solid #d4d6d9;
+	margin:0 25px 0 25px;
+	padding:0 0 15px 0;
+	font-size:16px;
+	font-weight:normal;
+} 
+.sec_Af h2 a {
+	color: #535455;
+}
+.sec_Af h2 a:hover {
+	color:#5f94ff;
+}
+.sec_Af .sec_ulo {
+	width:1150px;
+	margin:0 auto;
+}
+.sec_Af .sec_ulo>li {
+	width:1150px;
+	height:382px;
+	border:1px solid #ddd;
+	position:relative;
+	margin:50px 0 0 0;
+}
+.sec_Af .sec_img {
+	float:left;
+	margin:0 30px 0 0;
+}
+.sec_Af .sec_ulo>li>span {
+	width:67px;
+	height:67px;
+	line-height: 66px;
+	display:block;
+	position:absolute;
+	top:-5px;
+	left:20px;
+	background:url('../images/benben/benben.png');
+	text-align:center;
+	font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+.sec_Af h3 {
+    font-size: 22px;
+    color: #4b4b69;
+    font-weight: bold;
+    margin: 28px 0;
+}
+.sec_Af p {
+	margin:0 0 15px 0;
+}
+.sec_uloA {
+	display:block;
+}
+.sec_uloA dt {
+	margin-top: 15px;
+}
+.sec_uloA em {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url('../images/benben/yuan.png') no-repeat;
+    margin-right: 5px;
+}
+.sec_ulo .btn_xi {
+	width:172px;
+	height:49px;
+	display:block;
+	position:absolute;
+	right: 130px;
+    bottom: 12px;
+	background:url('../images/benben/btn.png');
+}

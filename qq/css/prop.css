@@ -1,0 +1,129 @@
+/*道具介绍样式*/
+footer {
+	top:7300px;
+}
+.sec_com_right {
+	background:#fff;
+}
+.sec_com .h1 {
+	width:960px;
+    height: 74px;
+    line-height: 74px;
+    padding:20px 0 0 0;
+	border-radius: 10px;
+    font-weight: normal;
+    font-size: 30px;
+    color: #434660;
+    text-align: center;
+}
+.sec_com_Af>i{ 
+	width:960px;
+	height:22px;
+	line-height:22px;
+	display:block;
+	text-align:center;
+	color: #9a9ba3;
+}
+.sec_com_Af hr {
+	width:920px;
+	margin: 0 auto;
+	margin:25px 0 25px 0;
+}
+.Af_center {
+	width:685px;
+	margin: 0 auto
+}
+.Af_center p { 
+	font-size: 1em;
+	color: #434660;
+	margin:20px 0 20px 0;
+}
+.Af_center .img_center {
+	text-align:center;
+}
+.Af_center h2 {
+	font-size: 1.375em;
+	color: #434660;
+	padding:10px 0 10px 0;
+}
+.btm {
+	width:200px;
+	height:30px;
+	float:right;
+	margin: 0px 40px 0 0;
+}
+.btm>span {
+	width:50px;
+	height:24px;
+	line-height:24px;
+	display:inline-block;
+}
+.btm>a { 
+	width:24px;
+	height:24px;
+	display:inline-block;
+	margin: 0px 0 -6px 0;
+	/*border:1px solid #000;*/
+}
+.btm>a:hover {
+	opacity:0.6;
+}
+.weixin {
+	background:url('../images/prop/icon-sns-24.png') no-repeat 0px 0px;
+}
+.qq {
+	background:url('../images/prop/icon-sns-24.png') no-repeat -30px 0px;
+}
+.home {
+	background:url('../images/prop/icon-sns-24.png') no-repeat -60px 0px;
+}
+.suosou {
+	background:url('../images/prop/icon-sns-24.png') no-repeat -90px 0px;
+}
+.weibo {
+	background:url('../images/prop/icon-sns-24.png') no-repeat -150px 0px;
+}
+
+.btm1 {
+	width:100%;
+	height:140px;
+	display:block;
+	margin: 86px 0 0 10px;
+}
+.btm1 h2 {
+	width:250px;
+	height:50px;
+	background:url('../images/public/icon.png') no-repeat  0 -1px;
+	margin:0 0 20px 0;
+}
+.btm1 a {
+	width:300px;
+	height:auto;
+	padding: 0 0 0 30px;
+	background:url('../images/public/icon.png') no-repeat -272px -14px;
+}
+/*右侧导航*/
+
+.nav_ul {
+	width:160px;
+	position:fixed;
+	bottom:0px;
+	right:180px;
+}
+.nav_ul>li {
+	width:160px;
+	position:relative;
+	border-left:1px solid #ddd;
+	cursor:pointer;
+	padding: 0 0 30px 20px;
+}
+.nav_ul>li>a>i {
+	width:11px;
+	height:11px;
+	display:inline-block;
+	border-radius:11px;
+	background: #fff;
+    border: 1px solid #eee;
+    position:absolute;
+    left:-7px;
+}

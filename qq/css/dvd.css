@@ -1,0 +1,133 @@
+/*========================== 新闻css样式 ================================ */
+	.sec_com {
+		width:1200px;
+		margin:0 auto;
+	/*	border:1px solid #000;*/
+	}
+	.nav_left {
+		width:230px;
+		/*border:1px solid red;*/
+		float:left;
+		margin: 0 8px 0 0;
+	}
+	.left_mar {
+		margin:0 0 0 3px;
+	}
+	.left_mar1 {
+		margin:10px 0 0 3px;
+	}
+
+
+/*	   右边   */
+	.sec_com_right {
+		width:960px;
+		/*border:1px solid pink;*/
+		float:left;
+	}
+	.sec_com_right .three_left_btm>ul>.li_first {
+		margin-left:40px;
+	}
+	.sec_com_right .three_left_btm input {
+		z-index:11;
+		left: 40px;
+	}
+	.sec_com_right .three_left_btm input:checked+i {
+		display:block;
+		background:#6a99f3;
+	}
+	.sec_com_right .three_left_btm input:checked+i+ul {
+		display:block;
+	}
+	.sec_com_right .three_left_btm i {
+		width:135px;
+		height:55px;
+		line-height:55px;
+		display:none;
+		position:absolute;
+		font-size:16px;
+		top: 22px;
+    	left: 17px;
+		/*border:1px solid #000;*/
+		text-align:center;
+		color:#FFF;
+	}
+	.sec_com_right .three_left_btm .i_shipin2 {
+		left:181px;
+	}
+	.sec_com_right .three_left_btm .i_shipin3 {
+		left:341px;
+	}
+	.sec_com_right .three_left_btm .i_shipin4 {
+		left:497px;
+	}
+	.sec_com_right .three_left_btm .i_shipin5 {
+		left:661px;
+	}
+/*==============================================   公共组件   ======================================================*/
+	
+		/*.sec_com a:hover{
+			color:#5f94ff;
+		}
+		.sec_com_right .right_top {
+			width:960px;
+			height:73px;
+			position:relative;
+			background:url('../images/new/sub_tit_bg.png') no-repeat;
+		}
+		.right_top h1 {
+			height:75px;
+			line-height:75px;
+			font-size:34px;
+			padding: 0 0 0 30px;
+		    font-weight: normal;
+		    color: #fff;
+		}
+		.right_top p {
+			position:absolute;
+			color: #fff;
+			font-size:16px;
+			top:27px;
+			right:50px;
+		}
+		.right_top a {
+			color: #fff;
+		}*/
+
+		footer {
+			top: 1130px;
+		}
+		.sec_com_right .public_img {
+			background:url('../images/new/new1.jpg') no-repeat;
+		} 
+		.sec_com_right .a1 {
+			background:url('../images/new/new2.jpg') no-repeat;
+		}
+		.sec_com_right .a2 {
+			background:url('../images/new/new3.jpg') no-repeat;
+		}
+		.sec_com_right .a3 {
+			background:url('../images/new/new4.jpg') no-repeat;
+		}
+		.sec_com_right .a4 {
+			background:url('../images/new/new5.jpg') no-repeat;
+		}
+		.sec_com_right .yemian {
+			text-align:center;
+			position:absolute;
+			top:1030px;
+			margin:0 0 0 300px;
+		}
+		.yemian .shang {
+			width:89px;
+			height:39px;
+			line-height:39px;
+			display:inline-block;
+			border:1px solid #5f94ff;
+		}
+		.yemian .num {
+			width:37px;
+			height:39px;
+			line-height:39px;
+			display:inline-block;
+			border:1px solid #5f94ff;
+		}

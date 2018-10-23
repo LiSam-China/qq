@@ -1,0 +1,80 @@
+/*游戏资料 css样式*/
+
+footer {
+	top:1000px;
+}
+.sec_com_right .yx_ziliao input{
+	top: 18px;
+    left: -466px;
+    margin: 0 45px 0 0;
+}
+.sec_com_right .three_left_btm {
+    height: 1025px;
+}
+.sec_com_right .yx_ziliao .public_img {
+	background: url('../images/yxzl/yx_mq.jpg') no-repeat;
+}
+
+.yx_ziliao .img_btm {
+	width:286px;
+	height:35px;
+	line-height:35px;
+	display:block;
+	position:absolute;
+	bottom:0;
+	left:0;
+	text-align:center;
+	background-color: rgba(0,0,0,0.3);
+    color: #fff;
+}
+.yx_ziliao .img_btm:hover { 
+	color:#fff;
+}
+.sec_com_right .yx_ziliao .car {
+	background: url('../images/yxzl/car.jpg') no-repeat;
+}
+.sec_com_right .yx_ziliao .meigui {
+	background: url('../images/yxzl/meigui.jpg') no-repeat;
+}
+.sec_com_right .three_left_btm>ul>.li_btm {
+	margin-left:44px;
+}
+.sec_com_right .three_left_btm>ul>li {
+	width:147px;
+    margin: 20px 0 0 0;
+}
+.three_left_btmA i {
+	width: 147px;
+	height:55px;
+	/*border:1px solid #000;*/
+	line-height:55px;
+	position:absolute;
+	top:22px;
+	display:none;
+	text-align:center;
+	font-weight:bold;
+	font-size:16px;
+}
+/*设置点击出现下边距*/
+.three_left_btmA .sec_i1 {
+	left: 18px;
+}
+.three_left_btmA .sec_i2 {
+	left:177px;
+}
+.three_left_btmA .sec_i3 {
+	left:339px;
+}
+.sec_com_right .three_left_btm .three_left_btmA input {
+	left: -428px;
+	z-index:11;
+}
+.sec_com_right .three_left_btm .three_left_btmA input:checked+i {
+	display:block;
+	background:#4892ff;
+	color:#fff;
+}
+
+.sec_com_right .three_left_btm .three_left_btmA input:checked+i+ul{
+	display:block;
+}

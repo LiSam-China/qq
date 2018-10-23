@@ -1,0 +1,101 @@
+/*攻略中心  最新样式*/
+/*.three_left_btmA*/
+.three_left_btmA .btmA_one {
+	width:84px;
+	height:25px;
+	line-height:25px;
+	display:inline-block;
+	background: #b3b9de;
+	color:#fff;
+	border-radius:5px 0 5px 0;
+	text-align:center;
+	margin: 0 10px 0 0;	
+} 
+.sec_com_right .three_left_btm {
+    height: 1500px;
+}
+.sec_com_right .three_left_btm .li_first {
+	margin-left: 60px;
+}
+.three_left_btmA i {
+	width:150px;
+	height:55px;
+	/*border:1px solid #000;*/
+	line-height:55px;
+	position:absolute;
+	top:22px;
+	display:none;
+	text-align:center;
+	font-weight:bold;
+	font-size:16px;
+}
+/*设置点击出现下边距*/
+.three_left_btmA .sec_i1 {
+	left:34px;
+}
+.three_left_btmA .sec_i2 {
+	left:198px;
+}
+.three_left_btmA .sec_i3 {
+	left:354px;
+}
+.three_left_btmA .sec_i4 {
+	right:284px;
+}
+.three_left_btmA .sec_i5 {
+	right:125px;
+}
+.sec_com_right .three_left_btm .three_left_btmA input {
+	left:54px;
+	z-index:11;
+}
+.sec_com_right .three_left_btm .three_left_btmA input:checked+i {
+	display:block;
+	background:#4892ff;
+	color:#fff;
+}
+
+.sec_com_right .three_left_btm .three_left_btmA input:checked+i+ul{
+	display:block;
+}
+.three_left_btmA ul {
+	width:934px;
+	overflow:hidden;
+}
+.three_left_btmA .first_li {
+	border:none;
+}
+.three_left_btmA li {
+	width:900px;
+	padding:20px 0 20px 0;
+	border-top:1px solid #d4d6d9;
+}
+.three_left_btmA a {
+	font-size:16px;
+	color:#535455
+}
+.three_left_btmA .btmA_one:hover {
+	color:#fff;
+}
+.sec_com_right .three_left_btm span {
+	float:right;
+	color:#999;
+}
+.sec_com_right .yemian {
+    text-align: center;
+    position: absolute;
+    top: 1425px;
+    margin: 0 0 0 430px;
+}
+.sec_com_right .yemian .shang {
+    width: 89px;
+    height: 39px;
+    line-height: 39px;
+    display: inline-block;
+    color:#5f94ff;
+    border: 1px solid #5f94ff;
+    cursor:pointer;
+}
+footer {
+	top:1500px;
+}
